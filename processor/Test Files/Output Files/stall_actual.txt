@@ -1,0 +1,35 @@
+Cycle   9: Wrote 1 into register 27
+Cycle  21: Wrote 2 into register 28
+============== Testing Mode ==============
+Reg  0:           0
+Reg  1:           X
+Reg  2:           X
+Reg  3:           z
+Reg  4:           z
+Reg  5:           z
+Reg  6:           z
+Reg  7:           z
+Reg  8:           X
+Reg  9:           0
+Reg 10:           0
+Reg 11:           0
+Reg 12:           0
+Reg 13:           0
+Reg 14:           0
+Reg 15:           0
+Reg 16:           0
+Reg 17:           0
+Reg 18:           0
+Reg 19:           0
+Reg 20:           0
+Reg 21:           0
+Reg 22:           0
+Reg 23:           0
+Reg 24:           0
+Reg 25:           0
+Reg 26:           0
+Reg 27:           1
+Reg 28:           2
+Reg 29:           0
+Reg 30:           0
+Reg 31:           0

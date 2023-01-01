@@ -1,0 +1,72 @@
+module counter_32(clk, count, reset);
+
+    input clk, reset;
+    output [31:0] count;
+
+    wire T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24, T25, T26, T27, T28, T29, T30, T31;
+
+
+    tff tff0(1'b1, clk, count[0], reset);
+    tff tff1(count[0], clk, count[1], reset);
+    and and2(T2, count[0], count[1]);
+    tff tff2(T2, clk, count[2], reset);
+    and and3(T3, T2, count[2]);
+    tff tff3(T3, clk, count[3], reset);
+    and and4(T4, T3, count[3]);
+    tff tff4(T4, clk, count[4], reset);
+    and and5(T5, T4, count[4]);
+    tff tff5(T5, clk, count[5], reset);
+    and and6(T6, T5, count[5]);
+    tff tff6(T6, clk, count[6], reset);
+    and and7(T7, T6, count[6]);
+    tff tff7(T7, clk, count[7], reset);
+    and and8(T8, T7, count[7]);
+    tff tff8(T8, clk, count[8], reset);
+    and and9(T9, T8, count[8]);
+    tff tff9(T9, clk, count[9], reset);
+    and and10(T10, T9, count[9]);
+    tff tff10(T10, clk, count[10], reset);
+    and and11(T11, T10, count[10]);
+    tff tff11(T11, clk, count[11], reset);
+    and and12(T12, T11, count[11]);
+    tff tff12(T12, clk, count[12], reset);
+    and and13(T13, T12, count[12]);
+    tff tff13(T13, clk, count[13], reset);
+    and and14(T14, T13, count[13]);
+    tff tff14(T14, clk, count[14], reset);
+    and and15(T15, T14, count[14]);
+    tff tff15(T15, clk, count[15], reset);
+    and and16(T16, T15, count[15]);
+    tff tff16(T16, clk, count[16], reset);
+    and and17(T17, T16, count[16]);
+    tff tff17(T17, clk, count[17], reset);
+    and and18(T18, T17, count[17]);
+    tff tff18(T18, clk, count[18], reset);
+    and and19(T19, T18, count[18]);
+    tff tff19(T19, clk, count[19], reset);
+    and and20(T20, T19, count[19]);
+    tff tff20(T20, clk, count[20], reset);
+    and and21(T21, T20, count[20]);
+    tff tff21(T21, clk, count[21], reset);
+    and and22(T22, T21, count[21]);
+    tff tff22(T22, clk, count[22], reset);
+    and and23(T23, T22, count[22]);
+    tff tff23(T23, clk, count[23], reset);
+    and and24(T24, T23, count[23]);
+    tff tff24(T24, clk, count[24], reset);
+    and and25(T25, T24, count[24]);
+    tff tff25(T25, clk, count[25], reset);
+    and and26(T26, T25, count[25]);
+    tff tff26(T26, clk, count[26], reset);
+    and and27(T27, T26, count[26]);
+    tff tff27(T27, clk, count[27], reset);
+    and and28(T28, T27, count[27]);
+    tff tff28(T28, clk, count[28], reset);
+    and and29(T29, T28, count[28]);
+    tff tff29(T29, clk, count[29], reset);
+    and and30(T30, T29, count[29]);
+    tff tff30(T30, clk, count[30], reset);
+    and and31(T31, T30, count[30]);
+    tff tff31(T31, clk, count[31], reset);
+
+endmodule

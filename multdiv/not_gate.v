@@ -1,0 +1,41 @@
+module not_gate(out, A, ctrl); 
+    input [31:0] A; 
+    input ctrl; 
+    output [31:0] out;
+    wire [31:0] temp;
+
+    not NOT0(temp[0], A[0]);
+    not NOT1(temp[1], A[1]);
+    not NOT2(temp[2], A[2]);
+    not NOT3(temp[3], A[3]);
+    not NOT4(temp[4], A[4]);
+    not NOT5(temp[5], A[5]);
+    not NOT6(temp[6], A[6]);
+    not NOT7(temp[7], A[7]);
+    not NOT8(temp[8], A[8]);
+    not NOT9(temp[9], A[9]);
+    not NOT10(temp[10], A[10]);
+    not NOT11(temp[11], A[11]);
+    not NOT12(temp[12], A[12]);
+    not NOT13(temp[13], A[13]);
+    not NOT14(temp[14], A[14]);
+    not NOT15(temp[15], A[15]);
+    not NOT16(temp[16], A[16]);
+    not NOT17(temp[17], A[17]);
+    not NOT18(temp[18], A[18]);
+    not NOT19(temp[19], A[19]);
+    not NOT20(temp[20], A[20]);
+    not NOT21(temp[21], A[21]);
+    not NOT22(temp[22], A[22]);
+    not NOT23(temp[23], A[23]);
+    not NOT24(temp[24], A[24]);
+    not NOT25(temp[25], A[25]);
+    not NOT26(temp[26], A[26]);
+    not NOT27(temp[27], A[27]);
+    not NOT28(temp[28], A[28]);
+    not NOT29(temp[29], A[29]);
+    not NOT30(temp[30], A[30]);
+    not NOT31(temp[31], A[31]);
+
+    assign out = ctrl ? temp : A; 
+endmodule 
