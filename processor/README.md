@@ -1,6 +1,6 @@
 # Processor
-## NAME (NETID)
-Dane Erickson (dte12)
+## NAME 
+Maddie Rubin
 
 ## Description of Design
 The processor is broken down into 5 pipelines (and an additional latch/pipeline specifically for multiplication). 
